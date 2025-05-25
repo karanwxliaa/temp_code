@@ -115,7 +115,7 @@ A complete pipeline to detect and classify streaks (satellites/debris) and stars
 | IoU (Jaccard)     |     1   |    1   |
 
 - **Inference time:** ~5 s per full 4k×4k image (tiling + stitch)  
-- **Training time:** ~30 mins on NVIDIA L4 (24 GB VRAM)  
+- **Training time:** ~30 mins on NVIDIA T4 (12 GB VRAM)  
 
 ---
 
