@@ -2,6 +2,10 @@
 
 A complete pipeline to detect and classify streaks (satellites/debris) and stars in ground-based telescope images. Implements data augmentation, CNN-based segmentation, and thorough evaluation. Packaged in a Colab-ready notebook (assessment1.ipynb).
 
+![Digantara Image Processing Assessment Response - visual selection (1)](https://github.com/user-attachments/assets/98072067-3e56-4e07-947c-df3e1b7b2a19)
+
+
+
 ---
 
 ## 🚀 Repository Structure
@@ -114,4 +118,15 @@ A complete pipeline to detect and classify streaks (satellites/debris) and stars
 - **Training time:** ~30 mins on NVIDIA L4 (24 GB VRAM)  
 
 ---
+
+---
+
+## 🚧 Limitations & Future Work
+
+- **CycleGAN-based Domain Adaptation (planned):** I intended to train a CycleGAN (using  
+  `junyanz/pytorch-CycleGAN-and-pix2pix`) to translate synthetic images into real-sky style and  
+  further boost robustness.  
+- **Compute Constraints:** Due to limited GPU resources (≤12 GB VRAM) and time, I deferred this  
+  step. As future work, implementing this would likely improve performance on real-sky data.
+
 
